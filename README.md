@@ -8,4 +8,4 @@ Website Layout:
 
 The website has a simple and elegant layout which makes it easy for the customers to navigate. The home page of the website displays the restaurant's name, logo and a background image of the restaurant.
 
-live site:https://astounding-profiterole-fe8f8f.netlify.app/
+live site:https://chipper-belekoy-b866a2.netlify.app/
