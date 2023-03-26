@@ -1,0 +1,115 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/pexels-photo-10402279.webp);
+    
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    padding: 20px 0px 20px 5%;
+   display: grid; 
+   grid-template-columns: 1fr 3fr 1fr;
+   grid-row: 50px;
+   align-items: center;
+   background: rgb(14, 13, 13); 
+   border-radius: 20px;
+   margin: 0px 10px 0px 10px;
+   
+}
+.nav{
+    display: flex;
+    column-gap: 100px;
+    cursor: pointer;
+}
+nav div img{
+    height:60px ;
+    width: 110px;
+}
+section img{
+    height: 150px;
+    width: 230px;
+}
+div.order{
+    padding-left: 50%;
+    display: flex;
+  position: relative;
+  align-items: flex-end;
+}
+button.order{
+    background-color: red;
+    color: white;
+    border: red;
+    height: 35px;
+    width: 100px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button.order:hover{
+    background-color: white;
+    font-weight: 900;
+    color: red;
+    border: #f4d804;
+}
+main div button{
+    background-color: red;
+    color: white;
+    border: red;
+    height: 40px;
+    width: 200px;
+    font-weight: 600;
+    font-size: medium;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+main div button:hover{
+    border: #f4d804;
+    background-color: white;
+    font-weight: 900;
+    color: red; 
+    
+}
+main div h1{
+font-size: 75px;
+font-weight: 900;
+color: #f4d804;
+}
+main div.content{
+    padding: 8% 0 0 20%;
+}
+.m{
+    padding-left: 12%;
+}
+.d{
+    padding-left: 7%; 
+}
+div.button{
+    padding:0 0 0 37%;
+}
+
+section{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+}
+a{
+    text-decoration: none;
+    color:  #f4d804;
+    font-size: medium;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: large;
+    font-weight: 900;
+}
