@@ -19,7 +19,7 @@ nav{
    grid-template-columns: 1fr 3fr 1fr;
    grid-row: 50px;
    align-items: center;
-   background: rgb(14, 13, 13); 
+   background: #0e0d0d; 
    border-radius: 20px;
    margin: 0px 10px 0px 10px;
    
@@ -44,9 +44,9 @@ div.order{
   align-items: flex-end;
 }
 button.order{
-    background-color: red;
-    color: white;
-    border: red;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: #ff0000;
     height: 35px;
     width: 100px;
     font-weight: 600;
@@ -55,15 +55,15 @@ button.order{
     border-radius: 10px;
 }
 button.order:hover{
-    background-color: white;
+    background-color: #ffffff;
     font-weight: 900;
-    color: red;
+    color: #ff0000;
     border: #f4d804;
 }
 main div button{
-    background-color: red;
-    color: white;
-    border: red;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: #ff0000;
     height: 40px;
     width: 200px;
     font-weight: 600;
@@ -74,9 +74,9 @@ main div button{
 }
 main div button:hover{
     border: #f4d804;
-    background-color: white;
+    background-color: #ffffff;
     font-weight: 900;
-    color: red; 
+    color: #ff0000; 
     
 }
 main div h1{
@@ -113,5 +113,5 @@ a:hover{
     text-decoration: underline;
     font-size: large;
     font-weight: 900;
-    color: rgb(237, 13, 13);
+    color: #ffffff;
 }
