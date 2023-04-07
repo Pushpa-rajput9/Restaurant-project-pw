@@ -11,23 +11,25 @@ body{
     /* background-size: 220vb 100vh; */
     font-family: 'Mochiy Pop One', sans-serif;
     font-family: 'Poppins', sans-serif;
-    
+    background-size: 100% 800px;
 }
 nav{
     padding: 20px 0px 20px 5%;
    display: grid; 
    grid-template-columns: 1fr 3fr 1fr;
-   grid-row: 50px;
+   grid-template-rows: 50px;
    align-items: center;
    background: #0e0d0d; 
    border-radius: 20px;
    margin: 0px 10px 0px 10px;
    
 }
-.nav{
-    display: flex;
-    column-gap: 100px;
-    cursor: pointer;
+nav ul{
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px ;
+    grid-template-rows:50px ;
+    column-gap: 50px;
+    align-items: center;
 }
 nav div img{
     height:60px ;
@@ -87,14 +89,17 @@ color: #f4d804;
 main div.content{
     padding: 8% 0 0 20%;
 }
+.t{
+    padding-left: 10%;
+}
 .m{
-    padding-left: 12%;
+    padding-left: 20%;
 }
 .d{
-    padding-left: 7%; 
+    padding-left: 16%; 
 }
 div.button{
-    padding:0 0 0 37%;
+    padding:0 0 0 45%;
 }
 
 section{
